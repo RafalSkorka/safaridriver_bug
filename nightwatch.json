@@ -4,13 +4,18 @@
     ],
     "test_settings": {
         "default": {
-            "desiredCapabilities": {
-                "browserName": "safari"
+            "silent": false,
+            "capabilities": {                
+                "browserName": "Safari",
+                "safari:diagnose": true
             },
             "webdriver": {
                 "start_process": true,
                 "server_path": "/usr/bin/safaridriver",
-                "port": 9515
+                "port": 9515,
+                "cli_args": [
+                    "--diagnose"
+                ]
             }
         },
         "chrome": {
