@@ -5,7 +5,7 @@
     "test_settings": {
         "default": {
             "silent": false,
-            "capabilities": {                
+            "capabilities": {
                 "browserName": "Safari",
                 "safari:diagnose": true
             },
@@ -25,7 +25,8 @@
             "webdriver": {
                 "start_process": true,
                 "server_path": "node_modules/chromedriver/lib/chromedriver/chromedriver",
-                "port": 9515
+                "port": 9515,
+                "use_legacy_jsonwire": false
             }
         }
     }

@@ -1,6 +1,6 @@
 module.exports = {
     'Apple.com page click at the bottom' : function (client) {
-        let selector = '#ac-globalfooter > div > nav > div:nth-child(1) > div > ul > li:nth-child(1) > a';
+        let selector = 'footer a[href="/mac/"]';
         client.url('https://www.apple.com');
         client.pause(3000);
         client.getText(selector, (result) => {

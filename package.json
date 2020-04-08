@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chromedriver": "^77.0.0",
+    "chromedriver": "^80.0.2",
     "nightwatch": "^1.2.4"
   }
 }
