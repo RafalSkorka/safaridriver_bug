@@ -14,7 +14,8 @@
                 "server_path": "/usr/bin/safaridriver",
                 "port": 9515,
                 "cli_args": [
-                    "--diagnose"
+                    "--diagnose",
+                    "--port=9515"
                 ]
             }
         },
